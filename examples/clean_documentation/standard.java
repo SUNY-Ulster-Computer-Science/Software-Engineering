@@ -4,7 +4,7 @@
 // Java is a strongly and statically typed language.
 // It has syntactical type definitions.
 
-package examples.documentation;
+package examples.clean_documentation;
 
 import java.util.List;
 import java.time.LocalDateTime;
