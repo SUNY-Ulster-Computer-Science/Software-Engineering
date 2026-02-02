@@ -35,14 +35,14 @@ def calculate_discounted_prices(prices: list[int]) -> list[int]:
         Invalid prices (zero or negative) are filtered out.
     """
 
+    # A list of valid prices with discounts applied 
     discounted = []
-    
     for price in prices:
+        # Skip invalid prices rather than raising error to handle
+        # legacy data that may contain placeholder zeros
         if price > 0:
             # Apply 50% discount per Q4 2024 promotion policy
             discounted.append(round(price * 0.5))
-        # Skip invalid prices rather than raising error to handle
-        # legacy data that may contain placeholder zeros
     
     return discounted
 
