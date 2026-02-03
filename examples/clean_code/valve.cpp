@@ -84,7 +84,7 @@ return true;
 
 // ===========================================================================
 
-// This is utterly f****** retarded.
+// This is utterly f****** r*******.
 pBox->SetFgColor( tanDark );
 pBox->SetDefaultColor( tanDark, pBox->GetBgColor() );
 pBox->SetArmedColor( tanDark, pBox->GetBgColor() );
